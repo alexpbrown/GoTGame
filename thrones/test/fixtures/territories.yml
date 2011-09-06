@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  type: 1
+  crowns: 1
+  barrels: 1
+  mustering: 1
+  househome: 1
+
+two:
+  name: MyString
+  type: 1
+  crowns: 1
+  barrels: 1
+  mustering: 1
+  househome: 1
