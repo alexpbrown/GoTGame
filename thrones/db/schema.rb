@@ -17,9 +17,17 @@ ActiveRecord::Schema.define(:version => 20110906234951) do
     t.string   "name"
     t.integer  "type"
     t.integer  "crowns"
-    t.integer  "barrels"
-    t.integer  "mustering"
+    t.integer  "supply"
+    t.integer  "mustering_points"
+    t.boolean  "is_throne"
     t.integer  "househome"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "territoryadjacencies", :force => true do |t|
+    t.integer  "territory_id"
+    t.integer  "other_territory_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
