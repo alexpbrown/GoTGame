@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(:version => 20110906234951) do
     t.datetime "updated_at"
   end
 
-  create_table "territoryadjacencies", :force => true do |t|
+  create_table "territory_adjacencies", :force => true do |t|
     t.integer  "territory_id"
     t.integer  "other_territory_id"
     t.datetime "created_at"
