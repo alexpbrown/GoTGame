@@ -11,12 +11,5 @@ class CreateTerritories < ActiveRecord::Migration
 
       t.timestamps
     end
-    
-    create_table :territory_adjacencies do |t|
-      t.integer :territory_id #one territory id
-      t.integer :other_territory_id #the other territory id
-      
-      t.timestamps
-    end
   end
 end

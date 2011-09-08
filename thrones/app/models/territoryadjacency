@@ -1,4 +1,0 @@
-class TerritoryAdjacency < ActiveRecord::Base
-  belongs_to :territory
-  belongs_to :neighbor, :class_name => "Territory"
-end
