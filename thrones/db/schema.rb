@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(:version => 20110908120202) do
 
   create_table "territories", :force => true do |t|
     t.string   "name"
-    t.integer  "type"
+    t.integer  "territory_type"
     t.integer  "crowns"
     t.integer  "supply"
     t.integer  "mustering_points"
