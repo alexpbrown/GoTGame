@@ -26,3 +26,12 @@ three:
   mustering_points: 1
   is_throne: true
   househome: 0
+
+four:
+  name: Lannisport
+  territory_type: 1
+  crowns: 0
+  supply: 2
+  mustering_points: 2
+  is_throne: true
+  househome: 0
