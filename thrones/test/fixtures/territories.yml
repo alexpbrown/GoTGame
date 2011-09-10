@@ -1,6 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
-one:
+sunspear:
   name: Sunspear
   territory_type: 1
   crowns: 1
@@ -9,7 +9,7 @@ one:
   is_throne: true
   househome: 1
 
-two:
+salt_shore:
   name: Salt Shore
   territory_type: 1
   crowns: 0
@@ -18,7 +18,7 @@ two:
   is_throne: false
   househome: 0
 
-three:
+yronwood:
   name: Yronwood
   territory_type: 1
   crowns: 0
@@ -27,7 +27,7 @@ three:
   is_throne: true
   househome: 0
 
-four:
+lannisport:
   name: Lannisport
   territory_type: 1
   crowns: 0
