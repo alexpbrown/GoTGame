@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110909233718) do
+ActiveRecord::Schema.define(:version => 20110910165004) do
 
   create_table "adjacencies", :force => true do |t|
     t.integer  "territory_id"
@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(:version => 20110909233718) do
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"
-    t.string   "password_hash"
+    t.string   "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
