@@ -1,25 +1,25 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
 one:
-  territory_id: 1
-  adjacent_id: 2
+  territory: one
+  adjacent: two
 
 two:
-  territory_id: 1
-  adjacent_id: 3
+  territory: one
+  adjacent: three
 
 three:
-  territory_id: 2
-  adjacent_id: 1
+  territory: two
+  adjacent: one
 
 four:
-  territory_id: 2
-  adjacent_id: 3
+  territory: two
+  adjacent: three
 
 five:
-  territory_id: 3
-  adjacent_id: 1
+  territory: three
+  adjacent: one
 
 six:
-  territory_id: 3
-  adjacent_id: 2
+  territory: three
+  adjacent: two
