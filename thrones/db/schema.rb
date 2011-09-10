@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110908120202) do
+ActiveRecord::Schema.define(:version => 20110909233718) do
 
   create_table "adjacencies", :force => true do |t|
     t.integer  "territory_id"
@@ -29,6 +29,21 @@ ActiveRecord::Schema.define(:version => 20110908120202) do
     t.integer  "mustering_points"
     t.boolean  "is_throne"
     t.integer  "househome"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "territory_adjacencies", :force => true do |t|
+    t.integer  "territory_id"
+    t.integer  "other_territory_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "password_hash"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

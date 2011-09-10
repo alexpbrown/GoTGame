@@ -1,0 +1,13 @@
+<%= form_for(:user, {:url => {:controller => 'users', :action => 'login'}}) do |f| %>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= text_field_tag :password, "" %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
