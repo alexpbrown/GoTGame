@@ -1,25 +1,25 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
 one:
-  territory: one
-  adjacent: two
+  territory: sunspear
+  adjacent: salt_shore
 
 two:
-  territory: one
-  adjacent: three
+  territory: sunspear
+  adjacent: yronwood
 
 three:
-  territory: two
-  adjacent: one
+  territory: salt_shore
+  adjacent: sunspear
 
 four:
-  territory: two
-  adjacent: three
+  territory: salt_shore
+  adjacent: yronwood
 
 five:
-  territory: three
-  adjacent: one
+  territory: yronwood
+  adjacent: sunspear
 
 six:
-  territory: three
-  adjacent: two
+  territory: yronwood
+  adjacent: salt_show
