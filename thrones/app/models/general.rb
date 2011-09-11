@@ -1,0 +1,2 @@
+class General < Card
+end

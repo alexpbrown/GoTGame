@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110911013022) do
+ActiveRecord::Schema.define(:version => 20110911022005) do
 
   create_table "adjacencies", :force => true do |t|
     t.integer  "territory_id"
@@ -23,10 +23,11 @@ ActiveRecord::Schema.define(:version => 20110911013022) do
 
   create_table "cards", :force => true do |t|
     t.string   "descriptor"
-    t.integer  "card_type"
+    t.integer  "type"
     t.string   "image_path"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "wildlings"
   end
 
   create_table "territories", :force => true do |t|
@@ -35,7 +36,7 @@ ActiveRecord::Schema.define(:version => 20110911013022) do
     t.integer  "crowns"
     t.integer  "supply"
     t.integer  "mustering_points"
-    t.integer  "househome"
+    t.string   "househome"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
