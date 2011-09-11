@@ -2,24 +2,13 @@
 
 one:
   territory: sunspear
-  adjacent: salt_shore
+  adjacent: sea_of_dorne
 
 two:
-  territory: sunspear
-  adjacent: yronwood
+  territory: yronwood
+  adjacent: sea_of_dorne
 
 three:
-  territory: salt_shore
-  adjacent: sunspear
+  territory: sea_of_dorne
+  adjacent: yronwood 
 
-four:
-  territory: salt_shore
-  adjacent: yronwood
-
-five:
-  territory: yronwood
-  adjacent: sunspear
-
-six:
-  territory: yronwood
-  adjacent: salt_show

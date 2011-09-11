@@ -6,17 +6,7 @@ sunspear:
   crowns: 1
   supply: 1
   mustering_points: 2
-  is_throne: true
   househome: 1
-
-salt_shore:
-  name: Salt Shore
-  territory_type: 1
-  crowns: 0
-  supply: 1
-  mustering_points: 0
-  is_throne: false
-  househome: 0
 
 yronwood:
   name: Yronwood
@@ -24,7 +14,14 @@ yronwood:
   crowns: 0
   supply: 0
   mustering_points: 1
-  is_throne: true
+  househome: 0
+
+sea_of_dorne: 
+  name: Sea of Dorne
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0
   househome: 0
 
 lannisport:
@@ -33,5 +30,4 @@ lannisport:
   crowns: 0
   supply: 2
   mustering_points: 2
-  is_throne: true
   househome: 0
