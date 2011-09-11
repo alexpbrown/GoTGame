@@ -5,24 +5,28 @@ sunspear:
   territory_type: 1
   crowns: 1
   supply: 1
-  mustering_points: 2
-  househome: 1
+  mustering_points: 1
 
 yronwood:
   name: Yronwood
   territory_type: 1
   crowns: 0
   supply: 0
-  mustering_points: 1
-  househome: 0
+  mustering_points: 0
 
-sea_of_dorne: 
-  name: Sea of Dorne
-  territory_type: 2
+starfall:
+  name: Starfall
+  territory_type: 1
   crowns: 0
   supply: 0
   mustering_points: 0
-  househome: 0
+
+dornish_marches:
+  name: Dornish Marches
+  territory_type: 1
+  crowns: 0
+  supply: 1
+  mustering_points: 0
 
 lannisport:
   name: Lannisport
@@ -30,4 +34,82 @@ lannisport:
   crowns: 0
   supply: 2
   mustering_points: 2
-  househome: 0
+  househome: Lannister
+
+ # Water spaces, from top right down clockwise
+the_shivering_sea: 
+  name: The Shivering Sea
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0
+  
+the_narrow_sea: 
+  name: The Narrow Sea
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0
+  
+shipbreaker_bay: 
+  name: Shipbreaker Bay
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0
+  
+blackwater_bay: 
+  name: Blackwater Bay
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0
+    
+sea_of_dorne: 
+  name: Sea of Dorne
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0
+  
+summer_sea: 
+  name: Summer Sea
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0
+  
+redwyne_straights: 
+  name: Redwyne Straights
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0
+  
+sunset_sea: 
+  name: Sunset Sea
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0
+  
+the_golden_sound: 
+  name: The Golden Sound
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0
+  
+ironmans_bay: 
+  name: Ironman's Bay
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0
+  
+bay_of_ice: 
+  name: Bay of Ice
+  territory_type: 2
+  crowns: 0
+  supply: 0
+  mustering_points: 0

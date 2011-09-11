@@ -1,14 +1,38 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
-one:
+sunspear_adj1:
   territory: sunspear
   adjacent: sea_of_dorne
+  
+sunspear_adj2:
+  territory: sunspear
+  adjacent: summer_sea
+    
+sunspear_adj3:
+  territory: sunspear
+  adjacent: yronwood
 
-two:
+yronwood_adj1:
   territory: yronwood
   adjacent: sea_of_dorne
+    
+yronwood_adj2:
+  territory: yronwood
+  adjacent: sunspear
+  
+yronwood_adj3:
+  territory: yronwood
+  adjacent: summer_sea
+  
+yronwood_adj4:
+  territory: yronwood
+  adjacent: redwyne_straights
+  
+yronwood_adj5:
+  territory: yronwood
+  adjacent: dornish_marches
 
-three:
+sea_of_dorne_adj1:
   territory: sea_of_dorne
   adjacent: yronwood 
 

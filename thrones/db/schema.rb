@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110911004543) do
+ActiveRecord::Schema.define(:version => 20110911013022) do
 
   create_table "adjacencies", :force => true do |t|
     t.integer  "territory_id"
