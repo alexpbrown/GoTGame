@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  descriptor: MyString
+  card_type: 1
+  image_path: MyString
+
+two:
+  descriptor: MyString
+  card_type: 1
+  image_path: MyString

@@ -11,12 +11,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110910165004) do
+ActiveRecord::Schema.define(:version => 20110911001704) do
 
   create_table "adjacencies", :force => true do |t|
     t.integer  "territory_id"
     t.integer  "adjacent_id"
     t.integer  "game_version"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "cards", :force => true do |t|
+    t.string   "descriptor"
+    t.integer  "card_type"
+    t.string   "image_path"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
