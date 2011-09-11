@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110911022005) do
+ActiveRecord::Schema.define(:version => 20110911152330) do
 
   create_table "adjacencies", :force => true do |t|
     t.integer  "territory_id"
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(:version => 20110911022005) do
 
   create_table "cards", :force => true do |t|
     t.string   "descriptor"
-    t.integer  "type"
+    t.string   "type"
     t.string   "image_path"
     t.datetime "created_at"
     t.datetime "updated_at"

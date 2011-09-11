@@ -1,11 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
-one:
-  descriptor: MyString
-  card_type: 1
-  image_path: MyString
+Supply:
+  descriptor: Supply
+  type: Westeros1
 
-two:
-  descriptor: MyString
-  card_type: 1
-  image_path: MyString
+Mustering:
+  descriptor: Mustering
+  type: Westeros1
+
+Last_Days_Of_Summer:
+  descriptor: Last Days of Summer
+  type: Westeros1
+ 
+Winter_Is_Coming:
+  descriptor: Winter is Coming
+  type: Westeros1
