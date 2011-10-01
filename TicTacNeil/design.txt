@@ -1,0 +1,21 @@
+GET:
+Signup link -> "Create user" form
+Login link (or index page?) -> "Login user" form
+List of game rooms -> Display the rooms
+Join a game room -> Game room, displaying board
+Click a space -> Place piece in that space -> Send updated state to client (enable/disable board clicking as necessary)
+Leave a room (explicitly) -> Back to list of game rooms
+
+POST:
+Create user form data
+Login user form data
+
+Push state events:
+Someone connects -> tell people who joined!
+Someone disconnects
+    Is there an ongoing game?
+Someone placed a piece, updating state
+    Is it my turn?
+    Did someone win?
+
+
