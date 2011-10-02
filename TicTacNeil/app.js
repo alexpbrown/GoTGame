@@ -115,8 +115,7 @@ sio.set('authorization', function (data, accept) {
 
 sio.sockets.on('connection', function (socket) {
     var hs = socket.handshake;
-    console.log('A socket with sessionID ' + hs.sessionID 
-        + ' connected!');
+    console.log(hs.session.username + ' has connected!');
     // setup an inteval that will keep our session fresh
     var intervalID = setInterval(function () {
         // reload the session (just in case something changed,
@@ -130,8 +129,7 @@ sio.sockets.on('connection', function (socket) {
         });
     }, 60 * 1000);
     socket.on('disconnect', function () {
-        console.log('A socket with sessionID ' + hs.sessionID 
-            + ' disconnected!');
+        console.log(hs.session.username + ' has disconnected!');
         // clear the socket interval to stop refreshing the session
         clearInterval(intervalID);
     });
